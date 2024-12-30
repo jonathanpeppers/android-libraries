@@ -1683,4 +1683,70 @@
     </attr>
 
 
+
+    <attr
+        path="/api/package[@name='com.google.firestore.admin.v1']/interface[@name='IndexOrBuilder']/method[@name='getState' and count(parameter)=0]"
+        name="propertyName"
+        >
+        StateData
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firestore.admin.v1']/class[@name='Index.Builder']/method[@name='getState' and count(parameter)=0]"
+        name="propertyName"
+        >
+        StateData
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firestore.admin.v1']/class[@name='Index.Builder']/method[@name='setState' and count(parameter)=1 and parameter[1][@type='com.google.firestore.admin.v1.Index.State']]"
+        name="propertyName"
+        >
+        StateData
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firestore.admin.v1']/class[@name='Index']/method[@name='getState' and count(parameter)=0]"
+        name="propertyName"
+        >
+        StateData
+    </attr>
+
+
+    <attr
+        path="/api/package[@name='com.google.firestore.bundle']/interface[@name='BundledQueryOrBuilder']/method[@name='getLimitType' and count(parameter)=0]"
+        name="propertyName"
+        >
+        LimitTypeData
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firestore.bundle']/class[@name='BundledQuery.Builder']/method[@name='getLimitType' and count(parameter)=0]"
+        name="propertyName"
+        >
+        LimitTypeData
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firestore.bundle']/class[@name='BundledQuery.Builder']/method[@name='setLimitType' and count(parameter)=1 and parameter[1][@type='com.google.firestore.bundle.BundledQuery.LimitType']]"
+        name="propertyName"
+        >
+        LimitTypeData
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firestore.bundle']/class[@name='BundledQuery']/method[@name='getLimitType' and count(parameter)=0]"
+        name="propertyName"
+        >
+        LimitTypeData
+    </attr>
+
+    
+    <attr
+        path="/api/package[@name='com.google.firebase.firestore']/class[@name='LoadBundleTask']/method[@name='getResult' and count(parameter)=0]"
+        name="propertyName"
+        >
+        RawResult
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.firebase.firestore']/class[@name='LoadBundleTask']/method[@name='getResult' and count(parameter)=0]"
+        name="visibility"
+        >
+        protected
+    </attr>
+
 </metadata>
