@@ -5,6 +5,7 @@ using Java.Interop;
 #if ! NET9_0_OR_GREATER
 namespace Xamarin.Google.MLKit.Vision.Label.AutoML
 {
+	/*
 
     // Metadata.xml XPath class reference: path="/api/package[@name='com.google.mlkit.vision.label.automl']/class[@name='AutoMLImageLabelerOptions']"
     //[global::Android.Runtime.Register("com/google/mlkit/vision/label/automl/AutoMLImageLabelerOptions", DoNotGenerateAcw = true)]
@@ -79,5 +80,6 @@ namespace Xamarin.Google.MLKit.Vision.Label.AutoML
 		}
 
 	}
+	*/
 }
 #endif
