@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using Android.Runtime;
 using Java.Interop;
 
+#if ! NET9_0_OR_GREATER
+
 namespace AndroidX.Car.Widget
 {
 
+	/*
 	// Metadata.xml XPath class reference: path="/api/package[@name='androidx.car.widget']/class[@name='ListItemAdapter']"
 	//[global::Android.Runtime.Register("androidx/car/widget/ListItemAdapter", DoNotGenerateAcw = true)]
 	public partial class ListItemAdapter //: global::AndroidX.RecyclerView.Widget.RecyclerView.Adapter, global::AndroidX.Car.Widget.PagedListView.IDividerVisibilityManager, global::AndroidX.Car.Widget.PagedListView.IItemCap
@@ -28,4 +31,7 @@ namespace AndroidX.Car.Widget
 			}
 		}
 	}
+	*/
 }
+
+#endif
