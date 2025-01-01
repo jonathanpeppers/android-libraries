@@ -3,6 +3,8 @@ using Android.Runtime;
 using Java.Interop;
 using Java.Lang;
 
+#if ! NET9_0_OR_GREATER
+
 namespace AndroidX.Activity.Result.Contract 
 {
 	// Metadata.xml XPath class reference: path="/api/package[@name='androidx.activity.result.contract']/class[@name='ActivityResultContracts']"
@@ -116,3 +118,5 @@ namespace AndroidX.Activity.Result.Contract
 		}
 	}
 }
+
+#endif

@@ -3,6 +3,8 @@ using Android.Runtime;
 using Java.Interop;
 using Java.Lang;
 
+#if NET9_0_OR_GREATER
+
 namespace AndroidX.Activity.Result.Contract
 {
 	public sealed partial class ActivityResultContracts
@@ -40,3 +42,5 @@ namespace AndroidX.Activity.Result.Contract
 		}
 	}
 }
+
+#endif
