@@ -445,11 +445,26 @@
 
     <remove-node path="/api/package[@name='kotlin.collections.builders']/class[@name='AbstractMapBuilderEntrySet']/method[@name='contains' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" />
 
-    <remove-node 
+    <!-- Workaround generator can't detect this was implemented as an explicitly implemented interface member on a base class -->
+    <attr
       path="/api/package[@name='kotlin.collections']/class[@name='AbstractMutableList']"
-      />
-      <remove-node 
+      name="skipInvokerMethods"
+      >
+      java/util/SequencedCollection.reversed()Ljava/util/SequencedCollection;
+    </attr>
+    
+    <attr
       path="/api/package[@name='kotlin.collections']/class[@name='AbstractList']"
-      />
-
-  </metadata>
+      name="skipInvokerMethods"
+      >
+      java/util/SequencedCollection.reversed()Ljava/util/SequencedCollection;
+    </attr>
+  
+    <!-- Workaround generator doesn't know that `java.util.IList` provides a DIM for this method -->
+    <attr
+      path="/api/package[@name='kotlin.collections']/class[@name='AbstractList']"
+      name="skipInterfaceMethods"
+      >
+      java/util/SequencedCollection.reversed()Ljava/util/SequencedCollection;
+    </attr>
+</metadata>
