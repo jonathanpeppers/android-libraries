@@ -353,4 +353,12 @@
         Xamarin.Protobuf.Lite.Internal.IProtobufList
     </attr>
 
+    <!-- Workaround generator can't detect this was implemented as an explicitly implemented interface member on a base class -->
+    <attr
+        path="/api/package[@name='com.google.protobuf']/class[@name='AbstractProtobufList']"
+        name="skipInvokerMethods"
+        >
+        java/util/SequencedCollection.reversed()Ljava/util/SequencedCollection;
+    </attr>
+
 </metadata>
