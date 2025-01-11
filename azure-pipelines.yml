@@ -99,5 +99,5 @@ extends:
           image: $(windowsImage)
           os: windows
         runDotnetNextTest: ${{ parameters.RunDotnetNextTest }}
-        
+
     - template: build/ci/stage-sign-artifacts.yml@self

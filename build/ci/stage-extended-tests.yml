@@ -22,7 +22,7 @@ stages:
       testAssembly: $(extendedTestAssembly)
       buildPool: ${{ parameters.buildPool }}
       runDotnetNextTest: ${{ parameters.runDotnetNextTest }}
-  
+
 # Disabled because of too many failures until MAUI updates its AndroidX packages
 #  - template: job-extended-tests.yml
 #    parameters:
