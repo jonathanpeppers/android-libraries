@@ -22,7 +22,9 @@ jobs:
   displayName: ${{ parameters.name }}
   timeoutInMinutes: ${{ parameters.timeoutInMinutes }}
   pool: ${{ parameters.buildPool }}
-  
+  workspace:
+    clean: all
+      
   templateContext:
     sdl:
       spotBugs:
