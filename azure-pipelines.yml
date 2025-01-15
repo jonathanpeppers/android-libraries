@@ -76,11 +76,9 @@ extends:
         parameters:
           name: macos
           buildPool:
-            name: $(macosAgentPoolName)
+            name: Azure Pipelines
+            image: macos-14-arm64
             os: macOS
-            demands:
-              - macOS.Name -equals Sonoma
-              - macOS.Architecture -equals x64
           runDotnetNextTest: ${{ parameters.RunDotnetNextTest }}
 
     - template: build/ci/stage-standard-tests.yml@self
