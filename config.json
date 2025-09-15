@@ -989,8 +989,7 @@
         "artifactId": "graphics-shapes",
         "version": "1.0.1",
         "nugetVersion": "1.0.1",
-        "nugetId": "Xamarin.AndroidX.Graphics.Shapes",
-        "dependencyOnly": true
+        "nugetId": "Xamarin.AndroidX.Graphics.Shapes"
       },
       {
         "groupId": "androidx.gridlayout",
