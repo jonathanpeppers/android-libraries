@@ -189,8 +189,7 @@
         "artifactId": "featurecombinationquery",
         "version": "1.5.0",
         "nugetVersion": "1.5.0",
-        "nugetId": "Xamarin.AndroidX.Camera.FeatureCombinationQuery",
-        "dependencyOnly": true
+        "nugetId": "Xamarin.AndroidX.Camera.FeatureCombinationQuery"
       },
       {
         "groupId": "androidx.car",
@@ -996,8 +995,7 @@
         "artifactId": "graphics-shapes-android",
         "version": "1.0.1",
         "nugetVersion": "1.0.1",
-        "nugetId": "Xamarin.AndroidX.Graphics.Shapes.Android",
-        "dependencyOnly": true
+        "nugetId": "Xamarin.AndroidX.Graphics.Shapes.Android"
       },
       {
         "groupId": "androidx.gridlayout",
