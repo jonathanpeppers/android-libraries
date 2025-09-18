@@ -1,5 +1,4 @@
 using Java.Lang;
-using Java.Util.Function;
 
 namespace AndroidX.Camera.Core.ImageCaptures
 {
